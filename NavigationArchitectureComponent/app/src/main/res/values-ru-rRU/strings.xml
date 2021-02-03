@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Компонент архитектуры навигации</string>
+    <string name="hello_blank_fragment">Привет пустой фрагмент</string>
+    <string name="bf1">Фрагмент 1</string>
+    <string name="bf2">Фрагмент 2</string>
+    <string name="bf3">Фрагмент 3</string>
+    <string name="bf4">Фрагмент 4</string>
+    <string name="titleF">Фрагмент 3 и 4</string>
+</resources>

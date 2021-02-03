@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/routes"
+    app:startDestination="@id/blankFragment1">
+
+    <fragment
+        android:id="@+id/blankFragment1"
+        android:name="com.example.nav_arch_com.BlankFragment1"
+        android:label="@string/bf1"
+        tools:layout="@layout/fragment_blank1">
+        <action
+            android:id="@+id/action_blankFragment1_to_blankFragment2"
+            app:destination="@id/blankFragment2" />
+        <action
+            android:id="@+id/action_blankFragment1_to_blankFragment4"
+            app:destination="@id/blankFragment4" />
+        <action
+            android:id="@+id/action_blankFragment1_to_blankFragment3"
+            app:destination="@id/blankFragment3" />
+    </fragment>
+    <fragment
+        android:id="@+id/blankFragment2"
+        android:name="com.example.nav_arch_com.BlankFragment2"
+        android:label="@string/bf2"
+        tools:layout="@layout/fragment_blank2"/>
+    <fragment
+        android:id="@+id/blankFragment3"
+        android:name="com.example.nav_arch_com.BlankFragment3"
+        android:label="@string/bf3"
+        tools:layout="@layout/fragment_blank3" />
+    <fragment
+        android:id="@+id/blankFragment4"
+        android:name="com.example.nav_arch_com.BlankFragment4"
+        android:label="@string/bf4"
+        tools:layout="@layout/fragment_blank4" />
+</navigation>

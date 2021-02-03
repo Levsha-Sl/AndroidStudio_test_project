@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Navigation Architecture Component</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bf1">Fragment 1</string>
+    <string name="bf2">Fragment 2</string>
+    <string name="bf3">Fragment 3</string>
+    <string name="bf4">Fragment 4</string>
+    <string name="titleF">Fragment 3 and 4</string>
+</resources>
