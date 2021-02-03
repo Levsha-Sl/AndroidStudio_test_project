@@ -1,2 +1,2 @@
 # AndroidStudio_test_project
-https://habr.com/ru/post/449776/
+NavigationArchitectureComponent - https://habr.com/ru/post/449776/
